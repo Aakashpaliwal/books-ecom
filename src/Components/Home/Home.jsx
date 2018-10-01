@@ -604,24 +604,13 @@ export class Home extends Component {
 
     {/*end pricing plan*/}
     {/*client slider */}
-      <section className="custom-client-slider text-center">
+      {/* <section className="custom-client-slider text-center">
       <div className="container-fluid">
       <div className="row">
       <div className="col-lg-12 col-md-12 col-sm-12 col-xs-12">
       <h2 className="text-center">Our Clients</h2>
             <p>It is a long established fact that a reader will be distracted by the</p>
             <hr className="below-header-hr-contact"></hr>
-      {/* <div class="customer-logos slider">
-        
-      <div class="slide"><img src={require('../img/logos/image1.png')} className="img-fluid"/></div>
-      <div class="slide"><img src={require('../img/logos/image2.png')} className="img-fluid"/></div>
-      <div class="slide"><img src={require('../img/logos/image3.png')} className="img-fluid"/></div>
-      <div class="slide"><img src={require('../img/logos/image4.png')} className="img-fluid"/></div>
-      <div class="slide"><img src={require('../img/logos/image5.png')} className="img-fluid"/></div>
-      <div class="slide"><img src={require('../img/logos/image6.png')} className="img-fluid"/></div>
-      <div class="slide"><img src={require('../img/logos/image7.png')} className="img-fluid"/></div>
-      <div class="slide"><img src={require('../img/logos/image8.png')} className="img-fluid"/></div>
-   </div> */}
    <div id="blogCarousel" class="carousel slide" data-ride="carousel">
                        
                         <div class="carousel-inner">
@@ -715,85 +704,9 @@ export class Home extends Component {
    </div>
    </div>
    </div>
-      </section>
+      </section> */}
     {/*end client silder */}
-    {/*get in touch*/}
-      <div className="contact-content" id="contact">
-        <div className="container">
-          <div className="row">
-          <div className="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-          <h2 className="text-center">Partner With Us</h2>
-            <p>Get An Oppurtunity to Work With Us</p>
-            <hr className="below-header-hr-contact"></hr>
-            </div>
-          </div>  
 
-          <div className="row">
-              <div className="col-lg-12 col-md-12 col-sm-12 col-xs-12 custom-headers">
-             <div className="custom-form">
-             <form>
-  <div class="form-row">
-    <div class="form-group col-md-6">
-      <label for="inputEmail4">First Name</label>
-      <input type="text" class="form-control" id="inputEmail4" name="first_name" value={this.state.first_name} onChange={e => this.change(e)}/>
-    </div>
-    <div class="form-group col-md-6">
-      <label for="inputPassword4">Last Name</label>
-      <input type="text" class="form-control" id="inputPassword4" name="last_name" value={this.state.last_name} onChange={e => this.change(e)}/>
-    </div>
-    <div class="form-group col-md-6">
-      <label for="inputPassword4">Email</label>
-      <input type="email" class="form-control" id="inputPassword4" name="email" value={this.state.email} onChange={e => this.change(e)}/>
-    </div>
-    <div class="form-group col-md-6">
-      <label for="inputPassword4">Contact Number</label>
-      <input type="number" class="form-control" id="inputPassword4" name="contact_number" value={this.state.contact_number} onChange={e => this.change(e)}/>
-    </div>
-    <div class="form-group col-md-12">
-      <label for="inputPassword4">Subject</label>
-      <textarea className="form-control" name="subject" value={this.state.subject} onChange={e => this.change(e)}></textarea>
-    </div>
-  </div>
-  <button class="btn btn-light text-center center-block" onClick = {e => this.onSubmit(e)}>Send</button>
-</form>
-
-             </div>
-              </div>
-
-
-          </div>
-          <div className="row custom-second-row">
-            <div className="col-lg-4 col-md-4 col-sm-12 col-xs-12">
-              <div className="custom-contact-content-upper text-center">
-              <i className="fa fa-phone fa-2x" aria-hidden="true"></i>
-              <h4>Phone</h4>
-              <p>512-423-7896</p>
-              </div>
-            </div>
-
-            <div className="col-lg-4 col-md-4 col-sm-12 col-xs-12">
-              <div className="custom-contact-content-upper text-center">
-              <i className="fa fa-envelope fa-2x" aria-hidden="true"></i>
-              <h4>Email</h4>
-              <p>johndoe@gmail.com</p>
-              </div>
-            </div>
-
-            <div className="col-lg-4 col-md-4 col-sm-12 col-xs-12">
-              <div className="custom-contact-content-upper text-center">
-              <i className="fa fa-map-marker fa-2x" aria-hidden="true"></i>
-              <h4>Address</h4>
-              <p>1739 - Bubby - Drive</p>
-              </div>
-            </div>
-          </div>
-
-
-
-
-        </div>
-      </div>
-    {/*end get in touch */}
           
           </div>
         

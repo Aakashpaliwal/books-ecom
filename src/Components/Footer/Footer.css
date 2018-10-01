@@ -27,78 +27,59 @@
     letter-spacing: 5px;
 } */
 
-.footer {
-    background: #0f1923;
+footer {
+    background: #222 url('../img/pattern_5.png') repeat 0 0;
     color: #fff;
-    padding: 10px;
-    padding-top: 30px;
+    padding: 30px 0 10px 0;
 }
-.custom-footer-icon {
-    border: solid thin #fff;
-    border-radius: 50%;
-    padding: 10px 13px;
-    margin: 0 5px;
+footer h3 {
+    font-weight: 700;
+    font-size: 18px;
+    /* margin-top:20px; */
+    margin-bottom: 20px;
 }
-.custom-footer-icon:hover {
-   background: #fff;
-    color: #3c5a99;
-    transition: all ease-in-out 0.5s;
-}
-.custom-footer-icon-twitter {
-    border: solid thin #fff;
-    border-radius: 50%;
-    padding: 10px 11px;
-    margin: 0 5px;
-}
-.custom-footer-icon-twitter:hover {
-    background: #fff;
-    color: #00acee;
-    transition: all ease-in-out 0.5s;
-}
-.custom-footer-icon-google {
-     border: solid thin #fff;
-    border-radius: 50%;
-    padding: 10px 9px;
-    margin: 0 5px;
-}
-.custom-footer-icon-google:hover {
-    background: #fff;
-    color: #dc4c41;
-    transition: all ease-in-out 0.5s;
-}
-.custom-footer-icon-linkedin {
-    border: solid thin #fff;
-    border-radius: 50%;
-    padding: 10px 11px;
-    margin: 0 5px;
-}
-.custom-footer-icon-linkedin:hover {
-    background: #fff;
-    color: #0274b3;
-    transition: all ease-in-out 0.5s;
-}
-.footer-custom-li {padding: 0;}
-.footer-custom-li li{
+footer ul li {
+    margin: 5px 0;
     list-style: none;
-    margin: 15px 0;
-    
 }
-.custom-footer-btn {
-    margin: 20px 0;
-    border-radius: 0;
+footer ul {
+    padding: 0;
 }
-.custom-footer-btn:focus{
-    box-shadow: none;
+footer .fa-phone {
+    color: #fdf7ac;
+    font-size: 18px;
 }
-.footer-email {
-    border-radius: 0;
-    background: none;
-    border: none;
-    border-bottom: solid thin #fff;
+footer .fa-envelope-o {
+    color: #fdf7ac;
+    font-size: 18px;
 }
-.footer-email:focus {
-    background: none;
-    box-shadow: none;
-    border-bottom: solid thin #0077e8;
-    transition: all ease 0.5s;
+footer hr {
+    border: solid 1px rgba(255, 255, 255, 0.2);
+}
+.fa-para {
+    color: #fdf7ac;
+    padding-left: 10px;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+
+.footer-social-icons ul li{
+margin:  0 10px;
+}
+.footer-social-icons  .fa {
+    color: #fff;
+text-align: center;
+line-height: 35px;
+display: block;
+font-size: 16px;
+width: 35px;
+height: 35px;
+-webkit-border-radius: 50%;
+-moz-border-radius: 50%;
+border-radius: 50%;
+transition: all ease 0.2s;
+}
+.footer-social-icons .fa:hover {
+    background: #fff;
+color: #111;
 }
