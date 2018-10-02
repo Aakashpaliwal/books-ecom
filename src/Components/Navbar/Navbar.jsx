@@ -23,17 +23,15 @@ export class Navbar extends Component {
            <Link to ="/Projects"> Hotel</Link>
             </li>
             <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Transfers</a>
-                <div class="dropdown-menu dropdown-menu-right">
-                    <a class="dropdown-item custom-a-color" href="#"><Link to ="/HVAC">HVAC</Link></a>
-                    <a class="dropdown-item" href="#"><Link to ="/Electrical">Electric</Link></a>
-                    <a class="dropdown-item" href="#"><Link to ="/Firefighting">Firefighting</Link></a>
-                    <a class="dropdown-item" href="#"><Link to ="/Interiors">Interiors</Link></a>
-                    <a class="dropdown-item" href="#"><Link to ="/BMS">BMS And Much More</Link></a>
-                    <div class="dropdown-divider"></div>
-                    <a class="dropdown-item" href="#"><Link to ="PHE">Public Health Engineering</Link></a>
-                </div>
-            </li>
+        <a class="nav-link dropdown-toggle" href="" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Dropdown link
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          <a class="dropdown-item" href="#">Action</a>
+          <a class="dropdown-item" href="#">Another action</a>
+          <a class="dropdown-item" href="#">Something else here</a>
+        </div>
+      </li>
             {/* <li className="nav-item"> <a className="nav-link" href="#price">Prices</a>
             </li> */}
             <li className="nav-item"> <a className="nav-link" href="#"><Link to ="/Career">Restaurents</Link></a>
@@ -56,42 +54,7 @@ export class Navbar extends Component {
         </ul>
     </div>
 </nav>
-					{/* <nav className="navbar navbar-expand-lg navbar-dark bg-primary fixed-top">
-          <div className="container-fluid">
-            <div className="row">
-              <div className="">
-              <a className="navbar-brand" href="#">Navbar</a>
-                <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-                  <span className="navbar-toggler-icon"></span>
-                </button>
-              </div>
-              <div className="">
-              <div className="collapse navbar-collapse" id="navbarTogglerDemo02">
-    <ul className="nav navbar-nav mr-auto mt-2 mt-lg-0 pull-lg-right">
-      <li className="nav-item active">
-        <a className="nav-link smooth-scroll" href="#home">Home <span className="sr-only">(current)</span></a>
-      </li>
-      <li className="nav-item">
-        <a className="nav-link smooth-scroll" href="#about">About</a>
-      </li>
-      <li className="nav-item">
-        <a className="nav-link smooth-scroll" href="#portfolio">Portfolio</a>
-      </li>
-      <li className="nav-item">
-        <a className="nav-link smooth-scroll" href="#service">Service</a>
-      </li>
-      <li className="nav-item">
-        <a className="nav-link smooth-scroll" href="#price">Price</a>
-      </li>
-      <li className="nav-item">
-        <a className="nav-link smooth-scroll" href="#contact">Contact</a>
-      </li>
-    </ul>
-  </div>
-              </div>
-            </div>
-          </div>
-</nav> */}
+
 			
 	
         
