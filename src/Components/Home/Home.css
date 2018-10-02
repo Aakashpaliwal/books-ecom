@@ -137,10 +137,10 @@
 
 .background-img-custom {
       /* background: url(../img/background-sofa.jpg); */
-      background: url(../img/bg_login.jpg);
+      background: #4d536d url(../img/bg_login.jpg) no-repeat center top;
       background-size: cover;
       /* padding: 23% 10%; */
-      padding: 20% 0;
+      padding: 10% 0;
   }
   .custom-inner-header {
       color: #549fc6;
@@ -675,10 +675,13 @@ margin-bottom: 10px;
     background: #e14d67;
     color: #fff;
 } */
+.nav-tabs {
+    border-bottom: none!important;
+}
 .custom-upper-tabs nav .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
     color: #fff!important;
     background-color: #e14d67!important;
-    border-bottom: none!important;
+    border-bottom:0px!important;
 }
 .custom-img-box {
     margin: 15px 0;

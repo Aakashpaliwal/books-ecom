@@ -7,23 +7,23 @@ export class Navbar extends Component {
   render() {
     return (
       <div>
-      <nav className="navbar fixed-top navbar-expand-sm navbar-light bg-primary custom-upper-navbar">
-    <a className="navbar-brand" href="#">Nikhil Comforts</a>
+      <nav className="navbar fixed-top navbar-expand-sm navbar-light custom-upper-navbar navbar-fixed-top">
+    <a className="navbar-brand" href="#"><img src = {require('../img/logo.png')} className="img-fluid"/></a>
     <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-collapse">☰</button> 
     <div className="collapse navbar-collapse custom-below-navbar" id="navbar-collapse">
         <ul className="nav navbar-nav ml-auto">
             <Link to="/"><li className="nav-item active"> <a className="nav-link" href="">Home</a>
             </li></Link>
             <li className="nav-item nav-link">
-            <Link to="/About">About</Link>
+            <Link to="/About">Tours</Link>
             </li>
             {/* <li className="nav-item nav-link"> <Link to="/#portfolio">Portfolio</Link>
             </li> */}
            <li className="nav-item nav-link">
-           <Link to ="/Projects"> Projects</Link>
+           <Link to ="/Projects"> Hotel</Link>
             </li>
             <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Services</a>
+                <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Transfers</a>
                 <div class="dropdown-menu dropdown-menu-right">
                     <a class="dropdown-item custom-a-color" href="#"><Link to ="/HVAC">HVAC</Link></a>
                     <a class="dropdown-item" href="#"><Link to ="/Electrical">Electric</Link></a>
@@ -36,9 +36,9 @@ export class Navbar extends Component {
             </li>
             {/* <li className="nav-item"> <a className="nav-link" href="#price">Prices</a>
             </li> */}
-            <li className="nav-item"> <a className="nav-link" href="#"><Link to ="/Career">Career</Link></a>
+            <li className="nav-item"> <a className="nav-link" href="#"><Link to ="/Career">Restaurents</Link></a>
             </li>
-            <li className="nav-item"> <a className="nav-link" href="#"><Link to ="/Blog">Blog</Link></a>
+            <li className="nav-item"> <a className="nav-link" href="#"><Link to ="/Blog">Bonus</Link></a>
             </li>
             {/* <li className="nav-item">
              <a className="nav-link" href="/#contact">Contact</a>

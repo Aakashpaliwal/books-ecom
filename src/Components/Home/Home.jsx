@@ -87,52 +87,90 @@ export class Home extends Component {
   <form>
   <div class="form-row">
     <div class="form-group col-md-6">
-      <label for="inputEmail4">Email</label>
-      <input type="email" class="form-control" id="inputEmail4" placeholder="Email" />
+      <label for="inputEmail4">Search Terms</label>
+      <input type="text" class="form-control" id="inputEmail4" placeholder="Enter Search Item" />
     </div>
     <div class="form-group col-md-6">
-      <label for="inputPassword4">Password</label>
-      <input type="password" class="form-control" id="inputPassword4" placeholder="Password" />
-    </div>
-  </div>
-  <div class="form-group">
-    <label for="inputAddress">Address</label>
-    <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St" />
-  </div>
-  <div class="form-group">
-    <label for="inputAddress2">Address 2</label>
-    <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor" />
-  </div>
-  <div class="form-row">
-    <div class="form-group col-md-6">
-      <label for="inputCity">City</label>
-      <input type="text" class="form-control" id="inputCity" />
-    </div>
-    <div class="form-group col-md-4">
-      <label for="inputState">State</label>
-      <select id="inputState" class="form-control">
-        <option selected>Choose...</option>
-        <option>...</option>
+      <label for="inputPassword4">Things To Do</label>
+      <select className="form-control">
+      <option>All Tours</option>
+      <option>City Sighting</option>
+      <option>Museum Tours</option>
+      <option>Historic Buildings</option>
       </select>
     </div>
-    <div class="form-group col-md-2">
-      <label for="inputZip">Zip</label>
-      <input type="text" class="form-control" id="inputZip" />
-    </div>
+    <div class="form-group col-md-6">
+    <label for="inputAddress">Date</label>
+    <input type="date" class="form-control" id="inputAddress" placeholder="Enter Date" />
   </div>
-  <div class="form-group">
-    <div class="form-check">
-      <input class="form-check-input" type="checkbox" id="gridCheck" />
-      <label class="form-check-label" for="gridCheck">
-        Check me out
-      </label>
-    </div>
+  <div class="form-group col-md-6">
+    <label for="inputAddress2">Time</label>
+    <input type="text" class="form-control" id="inputAddress2" placeholder="12:30 P.M." />
   </div>
-  <button type="submit" class="btn btn-primary">Sign in</button>
+  </div>
+
+  <button type="submit" class="btn btn-success">Search Now</button>
 </form>
   </div>
-  <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">...</div>
-  <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">...</div>
+  <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
+  <form>
+  <div class="form-row">
+    <div class="form-group col-md-6">
+      <label for="inputEmail4">Search Terms</label>
+      <input type="text" class="form-control" id="inputEmail4" placeholder="Enter Search Item" />
+    </div>
+    <div class="form-group col-md-6">
+      <label for="inputPassword4">Things To Do</label>
+      <select className="form-control">
+      <option>All Tours</option>
+      <option>City Sighting</option>
+      <option>Museum Tours</option>
+      <option>Historic Buildings</option>
+      </select>
+    </div>
+    <div class="form-group col-md-6">
+    <label for="inputAddress">Date</label>
+    <input type="date" class="form-control" id="inputAddress" placeholder="Enter Date" />
+  </div>
+  <div class="form-group col-md-6">
+    <label for="inputAddress2">Time</label>
+    <input type="text" class="form-control" id="inputAddress2" placeholder="12:30 P.M." />
+  </div>
+  </div>
+
+  <button type="submit" class="btn btn-success">Search Now</button>
+</form>
+
+  </div>
+  <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">
+  <form>
+  <div class="form-row">
+    <div class="form-group col-md-6">
+      <label for="inputEmail4">Search Terms</label>
+      <input type="text" class="form-control" id="inputEmail4" placeholder="Enter Search Item" />
+    </div>
+    <div class="form-group col-md-6">
+      <label for="inputPassword4">Things To Do</label>
+      <select className="form-control">
+      <option>All Tours</option>
+      <option>City Sighting</option>
+      <option>Museum Tours</option>
+      <option>Historic Buildings</option>
+      </select>
+    </div>
+    <div class="form-group col-md-6">
+    <label for="inputAddress">Date</label>
+    <input type="date" class="form-control" id="inputAddress" placeholder="Enter Date" />
+  </div>
+  <div class="form-group col-md-6">
+    <label for="inputAddress2">Time</label>
+    <input type="text" class="form-control" id="inputAddress2" placeholder="12:30 P.M." />
+  </div>
+  </div>
+
+  <button type="submit" class="btn btn-success">Search Now</button>
+</form>
+  </div>
 </div>
             </div>
           </div>
@@ -545,167 +583,6 @@ export class Home extends Component {
        </div>            
      </section>           
           {/*end softwae solutions */}
-    {/* Pricing plan
-      <div className="pricing-content" id="price">
-        <div className="container">
-          <div className="row">
-          <div className="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-              <h2 className="text-center">Pricing Table</h2>
-              <hr className="below-header-hr"></hr>
-            </div>
-          </div>
-
-          <div className="row">
-            <div className="col-lg-4 col-md-4 col-sm-12 col-xs-12">
-             <div className="plan-custom-box text-center center-block">
-              <h5>basic plan</h5>
-              <div className="price-border">
-              <h1>$19</h1>
-              <h5><strong>/ month</strong></h5>
-              </div>
-              <p>1 GB Disk Space</p>
-              <p>100 Email Account</p>
-              <p>24 / 24 Support</p>
-              <button type="button" className="btn btn-outline-primary">Purchase Now</button>
-             </div> 
-            </div>
-
-            <div className="col-lg-4 col-md-4 col-sm-12 col-xs-12">
-             <div className="plan-custom-box text-center center-block">
-              <h5>silver plan</h5>
-              <div className="price-border">
-              <h1>$19</h1>
-              <h5><strong>/ month</strong></h5>
-              </div>
-              <p>1 GB Disk Space</p>
-              <p>100 Email Account</p>
-              <p>24 / 24 Support</p>
-              <button type="button" className="btn btn-outline-primary">Purchase Now</button>
-             </div> 
-            </div>
-
-            <div className="col-lg-4 col-md-4 col-sm-12 col-xs-12">
-             <div className="plan-custom-box text-center center-block">
-              <h5>gold plan</h5>
-              <div className="price-border">
-              <h1>$19</h1>
-              <h5><strong>/ month</strong></h5>
-              </div>
-              <p>1 GB Disk Space</p>
-              <p>100 Email Account</p>
-              <p>24 / 24 Support</p>
-              <button type="button" className="btn btn-outline-primary">Purchase Now</button>
-             </div> 
-            </div>
-          </div>
-        </div>
-      </div>
- */}
-
-    {/*end pricing plan*/}
-    {/*client slider */}
-      {/* <section className="custom-client-slider text-center">
-      <div className="container-fluid">
-      <div className="row">
-      <div className="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-      <h2 className="text-center">Our Clients</h2>
-            <p>It is a long established fact that a reader will be distracted by the</p>
-            <hr className="below-header-hr-contact"></hr>
-   <div id="blogCarousel" class="carousel slide" data-ride="carousel">
-                       
-                        <div class="carousel-inner">
-
-                            <div class="carousel-item active">
-                                <div class="row">                               
-                                    <div class="col-md-2 eckcon">
-                                       
-                                            <img className="img-fluid" src={require('../img/logos/image1.png')} alt="Image"/>
-                                           
-                                       
-                                    </div>
-                                    <div class="col-md-2 eckcon">
-                                       
-                                            <img className="img-fluid" src={require("../img/logos/image2.png")} alt="Image" />
-                                          
-                                       
-                                    </div>
-                                    <div class="col-md-2 eckcon">
-                                      
-                                            <img className="img-fluid" src={require("../img/logos/image3.png")} alt="Image"  />
-                                          
-                                       
-                                    </div>
-                                    <div class="col-md-2 eckcon">
-                                       
-                                            <img className="img-fluid" src={require("../img/logos/image4.png")} alt="Image"  />
-                                           
-                                       
-                                    </div>
-                                    <div class="col-md-2 eckcon">
-                                       
-                                       <img className="img-fluid" src={require("../img/logos/image2.png")} alt="Image" />
-                                     
-                                  
-                               </div>
-                               <div class="col-md-2 eckcon">
-                                      
-                                      <img className="img-fluid" src={require("../img/logos/image3.png")} alt="Image"  />
-                                    
-                                 
-                              </div>
-                                    
-                                </div>
-                               
-                            </div>
-                           
-                            <div class="carousel-item">
-                                <div class="row">
-                                    <div class="col-md-2 eckcon">
-                                       
-                                            <img className="img-fluid" src={require("../img/logos/image5.png")} alt="Image"  />
-                                           
-                                    </div>
-                                    <div class="col-md-2 eckcon">
-                                    
-                                            <img className="img-fluid" src={require("../img/logos/image6.png")} alt="Image" />
-                                           
-                                       
-                                    </div>
-                                    <div class="col-md-2 eckcon">
-                                      
-                                            <img className="img-fluid" src={require("../img/logos/image7.png")} alt="Image"/>
-                                           
-                                    </div>
-                                    <div class="col-md-2 eckcon">
-                                       
-                                            <img className="img-fluid" src={require("../img/logos/image8.png")} alt="Image"/>
-                                           
-                                       
-                                    </div>
-                                    <div class="col-md-2 eckcon">
-                                       
-                                       <img className="img-fluid" src={require("../img/logos/image5.png")} alt="Image"  />
-                                      
-                               </div>
-                               <div class="col-md-2 eckcon">
-                                    
-                                    <img className="img-fluid" src={require("../img/logos/image6.png")} alt="Image" />
-                                   
-                               
-                            </div>
-                                </div>
-                               
-                            </div>
-                         
-
-                        </div>
-                       
-                    </div>
-   </div>
-   </div>
-   </div>
-      </section> */}
-    {/*end client silder */}
 
           
           </div>

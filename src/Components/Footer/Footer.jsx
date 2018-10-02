@@ -123,6 +123,10 @@ export class Footer extends Component {
                         </ul>
                       </div>
                   </div>
+                  <br />
+                  <div className="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center">
+                    <p className="copy-para">Design And Developed by <strong>NEO404</strong></p>
+                  </div>
                 </div>
                 </div>
 
