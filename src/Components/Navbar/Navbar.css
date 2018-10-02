@@ -9,7 +9,7 @@ margin: 0 20px;
 }
 
 .navbar-fixed-top.scrolled {
-    background-color: #000 !important;
+    background-color: #343a40 !important;
     box-shadow: 0px 2px 8px #777;
     transition: all ease 0.5s;
   }
