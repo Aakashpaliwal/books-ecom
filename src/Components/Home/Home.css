@@ -137,9 +137,13 @@
 
 .background-img-custom {
       /* background: url(../img/background-sofa.jpg); */
-      background: #4d536d url(../img/bg_login.jpg) no-repeat center top;
+      background:  url(../img/bg_login.jpg) no-repeat center top;
       background-size: cover;
       /* padding: 23% 10%; */
+     
+  }
+  .bg-div {
+      background:rgba(0, 0, 0, 0.6);
       padding: 10% 0;
   }
   .custom-inner-header {

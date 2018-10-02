@@ -12,8 +12,19 @@ export class Navbar extends Component {
     <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-collapse">☰</button> 
     <div className="collapse navbar-collapse custom-below-navbar" id="navbar-collapse">
         <ul className="nav navbar-nav ml-auto">
-            <Link to="/"><li className="nav-item active"> <a className="nav-link" href="">Home</a>
-            </li></Link>
+            <Link to="/">
+            <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Home
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+        <a className="dropdown-item" href="index.html">Default slider</a>
+        <a className="dropdown-item" href="index_20.html">Basic slider</a>
+        <a className="dropdown-item" href="index_14.html">Youtube Hero</a>
+                                            
+        </div>
+      </li>
+            </Link>
             <li className="nav-item nav-link">
             <Link to="/About">Tours</Link>
             </li>

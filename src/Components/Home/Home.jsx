@@ -27,25 +27,6 @@ export class Home extends Component {
       {
           e.preventDefault();
           console.log(this.state);
-        //   if (
-        //     this.state.category === "" ||
-        //     this.state.subcategory === "" ||
-        //     this.state.company === "" ||
-        //     this.state.model === "" ||
-        //     this.state.manufacturing_year === ""
-           
-        //  ) {
-        //     alert("Unable to contact because fields were left blank");
-        //     }else {
-        //         fetch(`/contact`,{
-        //             method : "POST",
-        //             headers : {
-        //                 "Content-Type": "application/json; charset=utf-8"
-        //             },
-        //             body: JSON.stringify(this.state)
-        //         }
-        //         ).then(this.getWebsite);
-        //       }
           this.setState ({
             first_name : "",
             last_name : "",
@@ -70,6 +51,7 @@ export class Home extends Component {
           <div>
     {/*SLIDER HERE */}
       <div className="background-img-custom" id="home">
+        <div className="bg-div">
         <div className="container">
           <div className="row">
           <div className="col-lg-12 col-md-12 col-sm-12 col-xs-12 custom-upper-tabs">
@@ -177,7 +159,7 @@ export class Home extends Component {
         </div>
 
       </div>
-
+</div>
 
 
     {/* END SLIDER HERE */}
