@@ -170,3 +170,9 @@ figure {
 .right-book-content p {
   color: #888;
 }
+.thumb-para span {
+  margin: 0 2px;
+}
+.product_description span{
+  margin: 0 2px;
+}

@@ -341,6 +341,11 @@ class Shop extends Component {
                                 <div className="col-lg-8 col-md-8 col-sm-12 col-xs-12 thumb-para">
                                     <p className="text-left">Grunge Fashion</p>
                                     <p className="text-left">$ 15.00</p>
+                                    <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star"></span>
                                 </div>
                             </div>
                             <hr />
@@ -351,6 +356,11 @@ class Shop extends Component {
                                 <div className="col-lg-8 col-md-8 col-sm-12 col-xs-12 thumb-para">
                                     <p className="text-left">Grunge Fashion</p>
                                     <p className="text-left">$ 15.00</p>
+                                    <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star"></span>
+                                        <span class="fa fa-star"></span>
                                 </div>
                             </div>
                             <hr />
@@ -361,6 +371,11 @@ class Shop extends Component {
                                 <div className="col-lg-8 col-md-8 col-sm-12 col-xs-12 thumb-para">
                                     <p className="text-left">Grunge Fashion</p>
                                     <p className="text-left">$ 15.00</p>
+                                    <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star"></span>
+                                        <span class="fa fa-star"></span>
                                 </div>
                             </div>
                             <hr />
