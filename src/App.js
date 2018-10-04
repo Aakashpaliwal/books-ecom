@@ -14,6 +14,7 @@ import AddLogin from './Components/Login/AddLogin';
 import Cart from './Components/Cart/Cart';
 import Shop from './Components/Shop/Shop';
 import Checkout from './Components/Checkout/Checkout';
+import Single from './Components/Single/Single';
 class App extends Component {
   render() {
     return (
@@ -27,6 +28,7 @@ class App extends Component {
         <Route path = "/Cart" exact = {true} component = {Cart} />
         <Route path = "/Shop" exact = {true} component = {Shop} />
         <Route path = "/Checkout" exact = {true} component = {Checkout} />
+        <Route path = "/Single" exact = {true} component = {Single} />
       <Footer />
       </div>
     );
