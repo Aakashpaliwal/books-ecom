@@ -25,7 +25,7 @@ class Cart extends Component {
 <section className="cart-content">
 <div className="container">
     <div className="row">
-            <div className="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+            <div className="col-lg-8 col-md-8 col-sm-12 col-xs-12">
             <table class="table table-striped">
   <thead className="table-light">
     <tr>
@@ -110,6 +110,53 @@ class Cart extends Component {
   </tbody>
 </table>
 </div>
+            </div>
+
+            <div className="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                <div className="right-side-content">
+                    <div className="summary-content">
+                    <h4>Summary </h4>
+                      <div className="summary-content-para">
+                      
+                        <div className="row">       
+                            
+                            <div className="col-lg-6 col-md-6 col-sm-12 col-xs-12 left-para">
+                                <p>Date</p>
+                            </div>
+                            <div className="col-lg-6 col-md-6 col-sm-12 col-xs-12 right-para">
+                                <p>10 April 2015</p>
+                            </div>
+                            
+                           
+                        </div>
+                            <hr />
+                        <div className="row">       
+                            
+                            <div className="col-lg-6 col-md-6 col-sm-12 col-xs-12 left-para">
+                                <p>Time</p>
+                            </div>
+                            <div className="col-lg-6 col-md-6 col-sm-12 col-xs-12 right-para">
+                                <p>12.00 AM</p>
+                            </div>
+                            
+                           
+                        </div>
+                                <hr />
+                        <div className="row">       
+                            
+                            <div className="col-lg-6 col-md-6 col-sm-12 col-xs-12 left-para">
+                                <p>Adults</p>
+                            </div>
+                            <div className="col-lg-6 col-md-6 col-sm-12 col-xs-12 right-para">
+                                <p>1</p>
+                            </div>
+                            
+                           
+                        </div>
+                        <hr />
+                      </div>  
+                    </div>
+                </div>
             </div>
     </div>
 </div>

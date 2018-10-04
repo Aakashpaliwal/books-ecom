@@ -14,6 +14,27 @@
 .second-table-below {
     margin-top: 50px;
 }
+.right-side-content .summary-content h4 {
+    letter-spacing:  1px;
+    text-align: center;
+    background: #444;
+    padding: 10px;
+    color: #fff;
+}
+.summary-content {
+    background: #fff;
+  
+}
+.summary-content hr {
+    margin-top: 0; 
+}
+.summary-content-para {
+    background: #fff;
+    padding: 0px 10px;
+}
+.summary-content-para .right-para p {
+    float: right;
+}
 /******************switch css*****************/
 /* The switch - the box around the slider */
 .switch {
