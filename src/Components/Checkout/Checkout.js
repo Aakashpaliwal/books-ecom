@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './Checkout.css';
 import {Link} from 'react-router-dom';
+import { SSL_OP_NO_TLSv1_1 } from 'constants';
 
 class Checkout extends Component {
     render() {
@@ -84,10 +85,55 @@ class Checkout extends Component {
 
             <div className="col-lg-4 col-md-4 col-sm-12 col-xs-12">
                 <div className="checkout-right-content">
+                <div className="row">
                     <div className="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                         <h3>YOur Order</h3>
                         <hr />
-                    </div>
+                        <div class="custom-card">
+                            <span className="text-left"><strong>Product</strong></span>
+                            <span className="text-right custom-right-span"><strong>Total</strong></span>
+                        </div>
+                        </div>
+                        </div>
+                        <div className="row checkout-thumb">
+                            <div className="col-lg-9 col-md-9 col-sm-12 col-xs-12">
+                               <img src={require('../img/products/thumb-1.jpg')} className="img-fluid"/> 
+                              &nbsp;&nbsp; <span>World Class book</span>        
+                            </div>
+
+                              <div className="col-lg-3 col-md-3 col-sm-12 col-xs-12">
+                              <p>$15.00</p>        
+                            </div>
+                        </div>
+                        <hr />
+                        <div className="row checkout-price">
+                            <div className="col-lg-9 col-md-9 col-sm-12 col-xs-12">
+                              <p>SubTotal</p>
+                            </div>
+
+                              <div className="col-lg-3 col-md-3 col-sm-12 col-xs-12">
+                              <p>$15.00</p>        
+                            </div>
+                        </div>
+                        <hr />
+                        <div className="row checkout-order">
+                            <div className="col-lg-9 col-md-9 col-sm-12 col-xs-12">
+                              <p>Order Total</p>
+                            </div>
+
+                              <div className="col-lg-3 col-md-3 col-sm-12 col-xs-12">
+                              <p>$15.00</p>        
+                            </div>
+                        </div>
+
+                        <br />
+
+                        <div className="row">
+                            <div className="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                
+                            </div>
+                        </div>
+                    
                 </div>
             </div>
 
