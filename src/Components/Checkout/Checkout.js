@@ -75,6 +75,10 @@ class Checkout extends Component {
       <label for="inputZip">Phone</label>
       <input type="text" class="form-control" id="inputZip" />
     </div>
+    <div className="form-group col-md-12">
+    <label for="inputZip">Order Note</label>
+    <textarea className="form-control" rows="6" placeholder="Order Note"></textarea>
+    </div>
   </div>
 </form>
             </div>
@@ -130,7 +134,40 @@ class Checkout extends Component {
 
                         <div className="row">
                             <div className="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                                
+                            <div class="input-group mb-3">
+  <input type="text" class="form-control" placeholder="Enter Coupon" aria-label="" aria-describedby="basic-addon2" />
+  <div class="input-group-append">
+    <button class="btn btn-outline-secondary" type="button">Apply</button>
+  </div>
+</div>
+                            </div>
+                        </div>
+
+                        <div className="payment-here row">
+                            <div className="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                <div className="pay-data">
+                                    <h3>Payment Method</h3>
+                                    <div class="form-check">
+  <label class="form-check-label">
+    <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked />
+   <strong>Cheque Payment</strong>
+  </label>
+</div>
+<div class="form-check">
+  <label class="form-check-label">
+    <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2" />
+    <strong>Direct Bank Transfer</strong>
+  </label>
+</div>
+<div class="form-check">
+  <label class="form-check-label">
+    <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2" />
+    <strong>Paypal</strong>
+  </label>
+</div>
+
+<button type="button" className="btn btn-success form-control custom-place-btn">PLACE ORDER&nbsp;&nbsp;<i class="fa fa-long-arrow-right" aria-hidden="true"></i></button>
+                                </div>
                             </div>
                         </div>
                     

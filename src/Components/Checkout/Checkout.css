@@ -42,12 +42,12 @@
     margin-bottom: 0!important;
 }
 .checkout-order {
-    padding: 0px;
+    padding-top: 10px;
     background: #f4f5f6;
     margin: 0!important;
 }
 .checkout-order p {
-    color: red;
+    color: #f7542b;
     font-weight: bold;
 }
 .checkout-price hr {
@@ -55,6 +55,25 @@
 }
 .checkout-thumb p {
     padding-top: 20px;
+}
+.payment-here {
+    margin-top: 20px;
+}
+.pay-data h3 {
+    font-size: 18px;
+    text-transform: uppercase;
+    border-bottom: solid 1px #ededed;
+    padding-bottom: 10px;
+}
+.pay-data .form-check {
+    margin: 10px 0;
+}
+.custom-place-btn {
+    background: #85c99d;
+   margin-top: 30px;
+   border: #85c99d;
+   font-weight: bold;
+   font-size: 15px;
 }
 /* .checkout-thumb {
     border-bottom: 1px solid #ededed;
