@@ -149,3 +149,24 @@ figure {
   padding-right: 5px;
   text-decoration: line-through;
 }
+.categories-row {
+  margin-bottom: 50px;
+}
+.categories h3 
+{
+  font-size: 16px;
+  text-transform: uppercase;
+}
+.categories p {
+  color: #888;
+}
+.categories hr {
+  margin: 0!important;
+  margin-bottom: 10px!important;
+}
+.thumb-para p {
+  margin: 0!important;
+}
+.right-book-content p {
+  color: #888;
+}

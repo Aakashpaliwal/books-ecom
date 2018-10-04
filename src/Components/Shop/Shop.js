@@ -25,7 +25,7 @@ class Shop extends Component {
 <section className="shop-content">
 <div className="container">
     <div className="row">
-    <div className="col-lg-8 col-md-8 col-sm-12 col-xs-12">
+    <div className="col-lg-9 col-md-9 col-sm-12 col-xs-12">
     <div className="left-side-content">
             <div className="row">
             <div className="col-lg-4 col-md-4 col-sm-12 col-xs-12 shop-item">
@@ -273,11 +273,12 @@ class Shop extends Component {
 									</div>
 								</div>
             </div>
+            <hr />
             </div>
             </div>
             </div>
-
-            <div className="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                
+            <div className="col-lg-3 col-md-3 col-sm-12 col-xs-12">
                 <div className="right-side-content">
                     <div className="row">
                         <div className="col-lg-12 col-md-12 col-sm-12 col-xs-12">
@@ -288,9 +289,67 @@ class Shop extends Component {
   </div>
 </div>
                         </div>
+                       
                     </div>
+                    <hr />
+                    <div className="row categories-row">
+                       <div className="col-lg-12 col-md-12 col-sm-12 col-xs-12 categories">
+                            <h3>Categories</h3>
+                            <br />
+                            <p>Places To Visit</p>
+                            <hr />
+                            <p>Top Tours</p>
+                            <hr />
+                            <p>Tips for traveller</p>
+                            <hr />
+                            <p>Events</p>
+                           <hr />
+                       </div>     
+                    </div>
+
+                    <div className="row">
+                        <div className="col-lg-12 col-md-12 col-sm-12 col-xs-12 categories">
+                            <h3>Top Rated</h3>
+                        </div>
+                        <div className="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                        <div className="right-book-content">
+                            <div className="row">
+                                <div className="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                                    <img src={require('../img/products/thumb-1.jpg')} className="img-fluid" />
+                                </div>
+                                <div className="col-lg-8 col-md-8 col-sm-12 col-xs-12 thumb-para">
+                                    <p className="text-left">Grunge Fashion</p>
+                                    <p className="text-left">$ 15.00</p>
+                                </div>
+                            </div>
+                            <hr />
+                            <div className="row">
+                                <div className="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                                    <img src={require('../img/products/thumb-2.jpg')} className="img-fluid" />
+                                </div>
+                                <div className="col-lg-8 col-md-8 col-sm-12 col-xs-12 thumb-para">
+                                    <p className="text-left">Grunge Fashion</p>
+                                    <p className="text-left">$ 15.00</p>
+                                </div>
+                            </div>
+                            <hr />
+                            <div className="row">
+                                <div className="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                                    <img src={require('../img/products/thumb-3.jpg')} className="img-fluid" />
+                                </div>
+                                <div className="col-lg-8 col-md-8 col-sm-12 col-xs-12 thumb-para">
+                                    <p className="text-left">Grunge Fashion</p>
+                                    <p className="text-left">$ 15.00</p>
+                                </div>
+                            </div>
+                            <hr />
+                        </div>
+                        </div>
+                    </div>
+                   
                 </div>
             </div>
+           
     </div>
 
 </div>
