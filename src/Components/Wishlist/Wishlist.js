@@ -28,7 +28,7 @@ class Wishlist extends Component {
             <div className="col-lg-4 col-md-4 col-sm-12 col-xs-12">
                 <button type="button" className="btn btn-info custom-wishlist-btn form-control">View On Map</button>
 
-            <div className="filter-content">
+            <div className="filter-content left-side-content-detail">
             <div className="row">
                 <div className="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                     <h5>Filter</h5>
@@ -144,6 +144,153 @@ class Wishlist extends Component {
                 </div>
             </div>
             </div>
+            </div>
+
+            <div className="col-lg-8 col-md-8 col-sm-12 col-xs-12">
+                <div className="right-side-content-detail">
+                    <div className="row">
+                        <div className="col-lg-4 col-md-4 col-sm-12 col-xs-12 custom-right-bg">
+                        <div className="custom-img-box">
+                  <div className="ribbons popular">
+                  <span>Popular</span>
+                  </div>
+                 <img src = {require('../img/tour_box_1.jpg')} className="img-fluid" />
+                 <div className="short_info">
+                 <i className="fa fa-university" aria-hidden="true"></i>
+                 <span className="history-text">Historic Buildings</span>
+                 <span className="price"><sup>$</sup>39</span>
+                 </div>
+                  </div>
+                        </div>
+
+                        <div className="col-lg-6 col-md-6 col-sm-12 col-xs-12 custom-col-hr">
+                            <div className="custom-middle-content">
+                        <i class="fa fa-smile-o colored" aria-hidden="true"></i>
+                        <i class="fa fa-smile-o colored" aria-hidden="true"></i>
+                        <i class="fa fa-smile-o colored" aria-hidden="true"></i>
+                        <i class="fa fa-smile-o colored" aria-hidden="true"></i>
+                        <i class="fa fa-smile-o" aria-hidden="true"></i>
+
+                        <h5>ARCH TRIOMPHE </h5>
+                        <p className="right-side-para">Lorem ipsum dolor sit amet, quem convenire interesset ut vix, ad dicat sanctus detracto vis. Eos modus dolorum ex, qui adipisci maiestatis inciderint no, eos in elit dicat.....</p>
+                        </div>
+                        </div>
+
+                        <div className="col-lg-2 col-md-2 col-sm-12 col-xs-12">
+                            <button type="button" className="btn btn-info custom-right-detail-btn">Detail</button>
+                        
+                        </div>
+                    </div>
+                </div>
+                <br />
+                <div className="right-side-content-detail">
+                    <div className="row">
+                        <div className="col-lg-4 col-md-4 col-sm-12 col-xs-12 custom-right-bg">
+                        <div className="custom-img-box">
+                  <div className="ribbons popular">
+                  <span>Popular</span>
+                  </div>
+                 <img src = {require('../img/tour_box_1.jpg')} className="img-fluid" />
+                 <div className="short_info">
+                 <i className="fa fa-university" aria-hidden="true"></i>
+                 <span className="history-text">Historic Buildings</span>
+                 <span className="price"><sup>$</sup>39</span>
+                 </div>
+                  </div>
+                        </div>
+
+                        <div className="col-lg-6 col-md-6 col-sm-12 col-xs-12 custom-col-hr">
+                            <div className="custom-middle-content">
+                        <i class="fa fa-smile-o colored" aria-hidden="true"></i>
+                        <i class="fa fa-smile-o colored" aria-hidden="true"></i>
+                        <i class="fa fa-smile-o colored" aria-hidden="true"></i>
+                        <i class="fa fa-smile-o colored" aria-hidden="true"></i>
+                        <i class="fa fa-smile-o" aria-hidden="true"></i>
+
+                        <h5>ARCH TRIOMPHE </h5>
+                        <p className="right-side-para">Lorem ipsum dolor sit amet, quem convenire interesset ut vix, ad dicat sanctus detracto vis. Eos modus dolorum ex, qui adipisci maiestatis inciderint no, eos in elit dicat.....</p>
+                        </div>
+                        </div>
+
+                        <div className="col-lg-2 col-md-2 col-sm-12 col-xs-12">
+                            <button type="button" className="btn btn-info custom-right-detail-btn">Detail</button>
+                        
+                        </div>
+                    </div>
+                </div>
+                <br />
+                <div className="right-side-content-detail">
+                    <div className="row">
+                        <div className="col-lg-4 col-md-4 col-sm-12 col-xs-12 custom-right-bg">
+                        <div className="custom-img-box">
+                  <div className="ribbons popular">
+                  <span>Popular</span>
+                  </div>
+                 <img src = {require('../img/tour_box_1.jpg')} className="img-fluid" />
+                 <div className="short_info">
+                 <i className="fa fa-university" aria-hidden="true"></i>
+                 <span className="history-text">Historic Buildings</span>
+                 <span className="price"><sup>$</sup>39</span>
+                 </div>
+                  </div>
+                        </div>
+
+                        <div className="col-lg-6 col-md-6 col-sm-12 col-xs-12 custom-col-hr">
+                            <div className="custom-middle-content">
+                        <i class="fa fa-smile-o colored" aria-hidden="true"></i>
+                        <i class="fa fa-smile-o colored" aria-hidden="true"></i>
+                        <i class="fa fa-smile-o colored" aria-hidden="true"></i>
+                        <i class="fa fa-smile-o colored" aria-hidden="true"></i>
+                        <i class="fa fa-smile-o" aria-hidden="true"></i>
+
+                        <h5>ARCH TRIOMPHE </h5>
+                        <p className="right-side-para">Lorem ipsum dolor sit amet, quem convenire interesset ut vix, ad dicat sanctus detracto vis. Eos modus dolorum ex, qui adipisci maiestatis inciderint no, eos in elit dicat.....</p>
+                        </div>
+                        </div>
+
+                        <div className="col-lg-2 col-md-2 col-sm-12 col-xs-12">
+                            <button type="button" className="btn btn-info custom-right-detail-btn">Detail</button>
+                        
+                        </div>
+                    </div>
+                </div>
+                <br />
+                <div className="right-side-content-detail">
+                    <div className="row">
+                        <div className="col-lg-4 col-md-4 col-sm-12 col-xs-12 custom-right-bg">
+                        <div className="custom-img-box">
+                  <div className="ribbons popular">
+                  <span>Popular</span>
+                  </div>
+                 <img src = {require('../img/tour_box_1.jpg')} className="img-fluid" />
+                 <div className="short_info">
+                 <i className="fa fa-university" aria-hidden="true"></i>
+                 <span className="history-text">Historic Buildings</span>
+                 <span className="price"><sup>$</sup>39</span>
+                 </div>
+                  </div>
+                        </div>
+
+                        <div className="col-lg-6 col-md-6 col-sm-12 col-xs-12 custom-col-hr">
+                            <div className="custom-middle-content">
+                        <i class="fa fa-smile-o colored" aria-hidden="true"></i>
+                        <i class="fa fa-smile-o colored" aria-hidden="true"></i>
+                        <i class="fa fa-smile-o colored" aria-hidden="true"></i>
+                        <i class="fa fa-smile-o colored" aria-hidden="true"></i>
+                        <i class="fa fa-smile-o" aria-hidden="true"></i>
+
+                        <h5>ARCH TRIOMPHE </h5>
+                        <p className="right-side-para">Lorem ipsum dolor sit amet, quem convenire interesset ut vix, ad dicat sanctus detracto vis. Eos modus dolorum ex, qui adipisci maiestatis inciderint no, eos in elit dicat.....</p>
+                        </div>
+                        </div>
+
+                        <div className="col-lg-2 col-md-2 col-sm-12 col-xs-12">
+                            <button type="button" className="btn btn-info custom-right-detail-btn">Detail</button>
+                        
+                        </div>
+                    </div>
+                </div>
+                
             </div>
         </div>
     </div>
