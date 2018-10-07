@@ -16,6 +16,7 @@ import Shop from './Components/Shop/Shop';
 import Checkout from './Components/Checkout/Checkout';
 import Single from './Components/Single/Single';
 import Admin from './Components/Admin/Admin';
+import Wishlist from './Components/Wishlist/Wishlist';
 class App extends Component {
   render() {
     return (
@@ -31,6 +32,7 @@ class App extends Component {
         <Route path = "/Checkout" exact = {true} component = {Checkout} />
         <Route path = "/Single" exact = {true} component = {Single} />
         <Route path = "/Admin" exact = {true} component = {Admin} />
+        <Route path = "/Wishlist" exact = {true} component = {Wishlist} />
       <Footer />
       </div>
     );
