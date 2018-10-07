@@ -14,7 +14,8 @@ class Admin extends Component {
           <div className="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center">
             {/* <h3>Your <span className="custom-inner-header"><strong>Comfort Partner</strong></span></h3>
             <button type="button" className="btn btn-primary btn-custom-radius">LEARN MORE</button> */}
-                <h3 className="cart-header">Place Your Order</h3>
+                <h3 className="cart-header">Hello USERNAME</h3>
+                <p className="admin-upper-most-para">Ridiculus sociosqu cursus neque cursus curae ante scelerisque vehicula.</p>
             </div>
           </div>
         </div>
