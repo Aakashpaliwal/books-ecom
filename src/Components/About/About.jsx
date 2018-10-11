@@ -7,65 +7,167 @@ class About extends Component {
         return (
             <React.Fragment>
             <div>
-            {/* <div id="scroll-animate">
-  <div id="scroll-animate-main">
-    <div className="wrapper-parallax">
-      <header>
-        <h1>About Us</h1>
-      </header> */}
-      <div id="header">
-            <div id="header__background">
-                <div id="header__centered">
-                    <h1>About Us</h1>
-                </div>
-            </div>
-        </div>
-
-      <section className="content">
-        {/* <h1>Content</h1> */}
+            <div className="background-img-custom" id="home">
+        <div className="bg-div">
         <div className="container">
-            <div className="row">
-                <div className="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                    <div className="mission-container text-center">
-                        <h2> - Our Mission - </h2>
-                        <p>To Bring Our Clients A Unique Combination Of Technologically Advanced And Comfort Solution</p>
-                        <br />
-                        <h2>About Us</h2>
-                        <p>Nikhil Comforts is a multi-disciplinary engineering contracting organization.Operating in India since 1991, the organization is located in Mulund, Mumbai.Our business has been built on unwavering commitment to deliver quality projects, on time and within allotted budgets.We offer our clients the latest in technologies and methodologies, as well as flexible approach to contracting structures.</p>
-                        <br />
-                        <p>We are backed by highly experienced and qualified Project Managers, engineers and supervisors.We offer integrated suite of services right from the concept to commissioning.</p>
-                    </div>
-                </div>
-
-                 <div className="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                    <div className="mission-container text-center">
-                        <h2> Our History </h2>
-                        <p>Started off as HVAC contractor in 1991 (dealer for Carrier Aircon).1st year did a business of INR 20 lakh.Attained an height of 1 Crore annual turnover in the year 1995 and by the year 2000 the annual turnover soared to Crores.In order to be one- stop solution provider, Nikhil Comforts started Electrical contracting in the year 2008.Since inception, Nikhil Comforts has won numerous awards for its sales and services. Nikhil Comforts boasts of being amongst the Elite Carrier Willis Group.Currently Nikhil Comforts is operating as a multi-disciplinary contracting firm.Executing HVAC, Electrical, Plumbing, Fire-fighting, Interiors projects. The current turnover is around INR 50 Crores.</p>
-                    </div>
-                </div>
-
-                 <div className="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                    <div className="mission-container">
-                        <h2 className="text-center">Quality Policy</h2>
-                        <ul className="about-list">
-                        <li>Quality Management is central to all the activities carried out by us.</li>
-                        <li>We endeavor to provide our clients with a truly professional  approach to project delivery. </li>
-                        <li>It is our policy to provide superior service to our clients by  understanding and responding to their needs and expectations.</li>
-                        <li>We systematically manage our projects to maximise value for all  stakeholders.</li>
-                        
-                        </ul>
-                    </div>
-                </div>
+          <div className="row">
+          <div className="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center">
+            {/* <h3>Your <span className="custom-inner-header"><strong>Comfort Partner</strong></span></h3>
+            <button type="button" className="btn btn-primary btn-custom-radius">LEARN MORE</button> */}
+                <h3 className="cart-header">About US</h3>
             </div>
+          </div>
         </div>
-      </section>
 
-      {/* <footer>
-        <h1>Footer</h1>
-      </footer> */}
-    {/* </div>
-  </div>
-</div> */}
+      </div>
+</div>
+
+{/*content begins here */}
+<section className="about-content">
+    <div className="container">
+    <div className="row">
+      <div className="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center">
+         <h1>SOME GOOD REASON</h1>
+         <p>Quisque at tortor a libero posuere laoreet vitae sed arcu. Curabitur consequat.</p>   
+      </div>      
+    </div>
+            
+      <div className="row">
+            <div className="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+            <div className="customer-left-side-box">
+              <div className="row">
+                <div className="col-lg-2 col-md-2 col-sm-12 col-xs-12">
+                    <i className="fa fa-user-o"></i>
+                </div>
+                <div className="col-lg-10 col-md-10 col-sm-12 col-xs-12">
+                    <h3><span>+ 1000</span> Customers</h3>
+                    <p>Lorem ipsum dolor sit amet, vix erat audiam ei. Cum doctus civibus efficiantur in. Nec id tempor imperdiet deterruisset, doctus volumus explicari qui ex, appareat similique an usu.</p>
+                </div>
+              </div>
+            </div>
+            </div>
+
+             <div className="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+             <div className="customer-left-side-box">
+              <div className="row">
+                <div className="col-lg-2 col-md-2 col-sm-12 col-xs-12">
+                <i class="fa fa-flag-o" aria-hidden="true"></i>
+                </div>
+                <div className="col-lg-10 col-md-10 col-sm-12 col-xs-12">
+                    <h3><span>10 Languages</span> available</h3>
+                    <p>Lorem ipsum dolor sit amet, vix erat audiam ei. Cum doctus civibus efficiantur in. Nec id tempor imperdiet deterruisset, doctus volumus explicari qui ex, appareat similique an usu.</p>
+                </div>
+              </div>
+            </div>
+            </div>
+      </div>
+
+      
+      <div className="row">
+            <div className="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+            <div className="customer-left-side-box">
+              <div className="row">
+                <div className="col-lg-2 col-md-2 col-sm-12 col-xs-12">
+                <i class="fa fa-wheelchair" aria-hidden="true"></i>
+                </div>
+                <div className="col-lg-10 col-md-10 col-sm-12 col-xs-12">
+                    <h3><span>Accesibility</span> managment</h3>
+                    <p>Lorem ipsum dolor sit amet, vix erat audiam ei. Cum doctus civibus efficiantur in. Nec id tempor imperdiet deterruisset, doctus volumus explicari qui ex, appareat similique an usu.</p>
+                </div>
+              </div>
+            </div>
+            </div>
+
+             <div className="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+             <div className="customer-left-side-box">
+              <div className="row">
+                <div className="col-lg-2 col-md-2 col-sm-12 col-xs-12">
+                <i class="fa fa-paw" aria-hidden="true"></i>
+                </div>
+                <div className="col-lg-10 col-md-10 col-sm-12 col-xs-12">
+                    <h3><span>Pet</span> Allowed</h3>
+                    <p>Lorem ipsum dolor sit amet, vix erat audiam ei. Cum doctus civibus efficiantur in. Nec id tempor imperdiet deterruisset, doctus volumus explicari qui ex, appareat similique an usu.</p>
+                </div>
+              </div>
+            </div>
+            </div>
+      </div> 
+
+      <div className="row">
+            <div className="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+            <div className="customer-left-side-box">
+              <div className="row">
+                <div className="col-lg-2 col-md-2 col-sm-12 col-xs-12">
+                <i class="fa fa-headphones" aria-hidden="true"></i>
+                </div>
+                <div className="col-lg-10 col-md-10 col-sm-12 col-xs-12">
+                    <h3><span>H24</span> support</h3>
+                    <p>Lorem ipsum dolor sit amet, vix erat audiam ei. Cum doctus civibus efficiantur in. Nec id tempor imperdiet deterruisset, doctus volumus explicari qui ex, appareat similique an usu.</p>
+                </div>
+              </div>
+            </div>
+            </div>
+
+             <div className="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+             <div className="customer-left-side-box">
+              <div className="row">
+                <div className="col-lg-2 col-md-2 col-sm-12 col-xs-12">
+                <i class="fa fa-map-marker" aria-hidden="true"></i>
+                </div>
+                <div className="col-lg-10 col-md-10 col-sm-12 col-xs-12">
+                    <h3><span>+120</span> Premium city tours</h3>
+                    <p>Lorem ipsum dolor sit amet, vix erat audiam ei. Cum doctus civibus efficiantur in. Nec id tempor imperdiet deterruisset, doctus volumus explicari qui ex, appareat similique an usu.</p>
+                </div>
+              </div>
+            </div>
+            </div>
+      </div> 
+      <hr />
+      <div className="row">
+              <div className="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+              <div className="city-content">
+                 <img src = {require('../img/laptop.png')} className="img-fluid" /> 
+                 </div>
+              </div>    
+
+               <div className="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+              <div className="city-content">
+                 <h3><span>Get Started</span> with CityTours</h3>
+                 <p>
+						Lorem ipsum dolor sit amet, vix erat audiam ei. Cum doctus civibus efficiantur in. Nec id tempor imperdiet deterruisset.
+					</p>
+          <ol>
+          <li> Select your preferred tours</li>
+          <li> Purchase tickets and options</li>
+          <li>Pick them directly from your office</li>
+          </ol> 
+          <button type="button" className="btn btn-info">START NOW</button>
+                 </div>
+              </div>    
+          </div>           
+    </div>
+
+
+</section>
+
+<section className="background-about-here">
+<div className="container-fluid">
+<div className="row">
+<div className="col-lg-6 col-md-6 col-sm-12 col-xs-12 bg-img-600">
+<div className="">
+</div>
+</div>
+<div className="col-lg-6 col-md-6 col-sm-12 col-xs-12 right-pink-bg">
+<div className="">
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed a lorem quis neque interdum consequat ut sed sem. Duis quis tempor nunc. Interdum et malesuada fames ac ante ipsum primis in faucibus.</p>
+<button type="button" className="btn btn-light custom-btn-pink">READ MORE</button>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+{/*end here */}
                 
             </div>
             </React.Fragment>
